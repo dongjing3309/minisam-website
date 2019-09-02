@@ -26,7 +26,8 @@ Get started
    C++ compile and installation <install>
    Python installation <install_python>
    Use Github issue for questions <github_issue>
-      
+   FAQ <faq>
+
 Factor graph theory
 ------------------------------
 
@@ -45,7 +46,6 @@ Examples
    GPS-like factor example <gps_example>
    Robust curve fitting <robust_curve_fitting>
    Optimizing your own types <optimize_type>
-   FAQ <faq>
 
 
 Questions & Bug Reporting

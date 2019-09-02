@@ -56,7 +56,7 @@ In C++ we use a non-intrusive technique called *traits*, which is a specializati
 
 Using traits to define manifold properties has two major advantages: 
 
-- Optimizing a class without modifying it, or even without knowing details of implementation (e.g. miniSAM optimization support for third-party C/C++ types).
+- Optimizing a class without modifying it, or even without knowing details of implementation (e.g. optimization support for third-party C/C++ types).
 - Making optimizing primitive types (like :code:`double`) possible.
 
 The specialization of template :code:`minisam::traits<>` needs following typedefs/static functions defined.
