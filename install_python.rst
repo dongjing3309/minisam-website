@@ -12,7 +12,7 @@ Prerequisites
 
 - `Python <http://www.python.org/>`_: version 2.7/3.4+ is compatible miniSAM Python package.
 - `NumPy <https://numpy.org/>`_ (:code:`pip install numpy`) : Numpy is required to use miniSAM Python package.
-- `matplotlib <https://matplotlib.org/>`_ (:code:`pip install matplotlib`) : matplotlib is only needed to run miniSAM Python examples for visualization.
+- `matplotlib <https://matplotlib.org/>`_ (:code:`pip install matplotlib`) : matplotlib is only needed to run miniSAM Python examples with visualization.
 
 Compile and install
 ~~~~~~~~~~~~~~~~~~~~~~~~~~

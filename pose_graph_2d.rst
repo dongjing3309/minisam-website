@@ -4,6 +4,9 @@ Simple 2D Pose Graph Example
 
 Python and C++ code of this example can be found at `pose_graph_example.py <https://github.com/dongjing3309/minisam/blob/master/examples/python/pose_graph_example.py>`_ and `pose_graph_example.cpp <https://github.com/dongjing3309/minisam/blob/master/examples/cpp/pose_graph_example.cpp>`_ respectively.
 
+............................................................................
+
+
 Here we give a simple example of using factor graph to solve a small 2D pose graph problem.
 The problem is shown in figure below, where a vehicle moves forward on a 2D plane, makes a 270 degrees right turn, and has a relative pose loop closure measurement which is shown in red. 
 

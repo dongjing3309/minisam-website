@@ -4,6 +4,9 @@
 
 Python and C++ code of this example can be found at `gps_factor_example.py <https://github.com/dongjing3309/minisam/blob/master/examples/python/gps_factor_example.py>`_ and `gps_factor_example.cpp <https://github.com/dongjing3309/minisam/blob/master/examples/cpp/gps_factor_example.cpp>`_ respectively.
 
+............................................................................
+
+
 Here we give a simple example of how to define a 2D GPS-like factor and solve a pose graph problem with GPS-like measurement.
 The problem is shown in figure below, where a vehicle moves forward on a 2D plane, and has a GPS-like measurement (the translation measurement) at each time stamp, 
 
@@ -57,7 +60,7 @@ and has following member functions defined:
 
 We can then define the GPS factor in Python
 
-.. code::
+.. code:: python
 
    # GPS translation measurement factor
    class GPSPositionFactor(Factor):
@@ -85,7 +88,7 @@ We can then define the GPS factor in Python
 
 The factor graph of this example can be built by
 
-.. code::
+.. code:: python
 
    # factor graph container
    graph = FactorGraph()
