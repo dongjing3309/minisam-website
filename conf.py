@@ -29,6 +29,7 @@ import os
 # Add any Sphinx extension module names here, as strings. They can be
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
+# 'sphinxcontrib.examplecode'
 extensions = [
     'sphinx.ext.mathjax',
     'sphinx.ext.viewcode',
@@ -49,9 +50,9 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = 'minisam-website'
-copyright = '2019, minisam-website'
-author = 'minisam-website'
+project = 'miniSAM'
+copyright = '2019, Jing Dong'
+author = 'Jing Dong'
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -77,7 +78,7 @@ language = None
 
 # List of patterns, relative to source directory, that match files and
 # directories to ignore when looking for source files.
-exclude_patterns = ['_build']
+exclude_patterns = ['build']
 
 # The reST default role (used for this markup: `text`) to use for all
 # documents.
