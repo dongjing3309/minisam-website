@@ -8,6 +8,8 @@ miniSAM
 
 `Link to Github repository <https://github.com/dongjing3309/minisam/>`_
 
+............................................................................
+
 miniSAM is an open-source C++/Python framework for solving factor graph based least squares problems. The APIs and implementation of miniSAM are heavily inspired and influenced by `GTSAM <https://gtsam.org/>`_, a famous factor graph framework, but miniSAM is a much more lightweight framework with
 
 - Full Python/NumPy API, which enables more agile development and easy binding with existing Python projects, and
@@ -40,10 +42,10 @@ Examples
    :maxdepth: 1
    
    2D pose graph example <pose_graph_2d>
-   GPS-like factor example <test_page2>
-   Robust curve fitting <test_page1>
-   Optimizing your own types <test_page2>
-   FAQ <test_page2>
+   GPS-like factor example <gps_example>
+   Robust curve fitting <robust_curve_fitting>
+   Optimizing your own types <optimize_type>
+   FAQ <faq>
 
 
 Questions & Bug Reporting
