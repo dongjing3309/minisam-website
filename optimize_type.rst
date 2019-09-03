@@ -70,7 +70,7 @@ The specialization of template :code:`minisam::traits<>` needs following typedef
 
 Given a C++ 2D vector space class :code:`Point2D`
 
-.. code:: cpp
+.. code:: c++
 
    class Point2D {
     private:
@@ -87,7 +87,7 @@ Given a C++ 2D vector space class :code:`Point2D`
 
 The :code:`minisam::traits<Point2D>` specialization is defined by
 
-.. code:: cpp
+.. code:: c++
 
    // speialization of minisam::traits<Point2D>
    namespace minisam {
